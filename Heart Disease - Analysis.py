@@ -11,7 +11,7 @@ from sklearn.impute import SimpleImputer
 import numpy as np
 
 # Load dataset using the provided file path
-heart_disease_data = pd.read_csv('../Data/heart_disease_cleaned.csv')
+heart_disease_data = pd.read_csv("heart_disease_cleaned.csv")
 
 # Display the first few rows to confirm successful loading
 print(heart_disease_data.head())
